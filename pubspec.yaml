@@ -1,0 +1,29 @@
+name: medslot
+description: "AI-Powered Medical Triage and Booking Platform"
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '^3.2.0' # Updated for 2026 compatibility
+
+dependencies:
+  flutter:
+    sdk: flutter
+  
+  # Firebase Core and Firestore
+  firebase_core: ^4.3.0
+  cloud_firestore: ^6.1.1
+  
+  # HTTP for AI API calls
+  http: ^1.1.0
+  
+  # Geolocation for proximity matching
+  geolocator: ^10.1.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
